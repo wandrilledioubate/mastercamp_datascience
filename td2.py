@@ -134,8 +134,7 @@ l = [1, 2, 3]
 for x in boomerang(l):
     print(x)
     
-# %% Partie 2 - A 
-
+    
 # %% Partie 2 - A 
 
 # Le constructeur de la classe est la méthode __init__. Cette méthode est appelée lorsqu'un nouvel objet est créé à partir de la classe. Dans cette classe, le constructeur prend quatre paramètres : self, nomClient, iban et solde.
