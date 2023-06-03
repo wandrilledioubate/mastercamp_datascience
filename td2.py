@@ -136,12 +136,17 @@ for x in boomerang(l):
     
 # %% Partie 2 - A 
 
-# Le constructeur est une méthode spéciale def __init__ qui est utilisée pour initialiser les objets lors de leur création.
+# %% Partie 2 - A 
 
-# Les variables d'instances sont des variables qui sont spécifiques à chaque objet créé à partir de la classe. Dans la classe CompteBancaire, les variables d'instances sont :
-  # self.nom
-  # self.solde
-  # self.iban 
+# Le constructeur de la classe est la méthode __init__. Cette méthode est appelée lorsqu'un nouvel objet est créé à partir de la classe. Dans cette classe, le constructeur prend quatre paramètres : self, nomClient, iban et solde.
+
+# Les variables d'instances sont celles qui sont définies à l'intérieur du constructeur et qui sont précédées de self. Ces variables ont des valeurs différentes pour chaque instance de la classe. Dans cette classe, les variables d'instance sont self.nomClient, self.solde, et self.iban.
+
+# Les variables de classe sont des variables qui sont partagées par toutes les instances de la classe. Elles sont définies en dehors de toute méthode et ne sont pas précédées de self. Dans cette classe, la variable de classe est cb_count.
+
+# La méthode __str__ a été définie pour cette classe, ce qui permet l'utilisation de print(c2). Lorsque vous utilisez print sur une instance de classe, Python appelle automatiquement la méthode __str__ de cette classe pour obtenir une représentation en chaîne de caractères de l'objet. Ici, cette méthode renvoie une chaîne de caractères qui indique le propriétaire du compte.
+
+# La méthode __eq__ a été définie pour cette classe, ce qui permet le test ==. Cette méthode spécifie ce qui doit être comparé lorsque vous utilisez == pour comparer deux instances de la classe. Ici, cette méthode compare les numéros iban des deux comptes bancaires. Si les deux numéros iban sont identiques, alors == renverra True; sinon, il renverra False.
 
 
 
