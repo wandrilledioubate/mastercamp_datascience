@@ -16,7 +16,7 @@ Le programme de Mastercamp en Data Science à EFREI Paris vise à fournir une fo
 
 ## Structure du dépôt
 
-Chaque TP est contenu dans un fichier `.py` ou `ipynb`. 
+Chaque TP est contenu dans un fichier `.py` ou `.ipynb`. 
 
 Les sujets se trouvent dans le dossier `statement`. 
 
