@@ -25,7 +25,7 @@ Les sujets se trouvent dans le dossier `statement`.
 
 Pour installer et utiliser ce dépôt, suivez ces étapes :
 
-1. Clonez ce dépôt sur votre machine locale en utilisant `git clone https://github.com/username/mc-ds-efrei.git`
+1. Clonez ce dépôt sur votre machine locale en utilisant `git clone https://github.com/wandrilledioubate/mastercamp_datascience.git`
 2. Accédez au dossier du dépôt 
 3. Pour chaque TP, il est recommandé de créer un environnement virtuel et d'installer les dépendances requises.
 
